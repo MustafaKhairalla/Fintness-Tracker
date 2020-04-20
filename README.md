@@ -2,7 +2,7 @@
 
 <p>An app to track and manage workout</p>
 
-##Installation
+## Installation
 <p>This app uses node.js and Mongodb</p>
 
 ## Link to deployed app
