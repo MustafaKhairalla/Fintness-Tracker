@@ -14,7 +14,7 @@ app.use(express.json());
 require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://mustafadb:mustafa123@ds139949.mlab.com:39949/heroku_4ntbt36g", {
     useNewUrlParser: true,
     useFindAndModify: false
 });
